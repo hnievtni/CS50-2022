@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: Time: 0m0.083, this is bubble sort becuase in reversed do to its nature it has to move every element from left to right one by one so it must take longest
+
+sort2 uses: Merge Sort
+
+How do you know?: Time: 0m0.010, becuase it's the fastest sort, and the merge sort is the fastest way
+
+sort3 uses: Selection sort
+
+How do you know?: Time: 0m0.068, this is the second fastest in reversed so its selection sort and its time it's between bubble sort and merge sort bacuase it must go through each element but doesn't have to do one by one

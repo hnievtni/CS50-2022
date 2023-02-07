@@ -5,7 +5,6 @@
 // Max number of candidates
 #define MAX 9
 
-// Candidates have name and vote count
 typedef struct
 {
     string name;
@@ -13,15 +12,11 @@ typedef struct
 }
 candidate;
 
-// Array of candidates
 candidate candidates[MAX];
-
-// Number of candidates
 int candidate_count;
 
-// Function prototypes
-bool vote(string name);
-void print_winner(void);
+bool vote(string name); // Update vote totals given a new vote
+void print_winner(void); //prints the winner or winners
 
 int main(int argc, string argv[])
 {
@@ -63,7 +58,6 @@ int main(int argc, string argv[])
     print_winner();
 }
 
-// Update vote totals given a new vote
 bool vote(string name)
 {
     bool validity = false;
@@ -82,7 +76,6 @@ bool vote(string name)
     return validity;
 }
 
-// Print the winner (or winners) of the election
 void print_winner(void)
 {
     int maxVote = 0;

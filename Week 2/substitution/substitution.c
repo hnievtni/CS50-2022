@@ -5,7 +5,7 @@
 #include <stdlib.h>
 
 int keyValidity(string key); //returns the key validity
-int duplicate(string key);
+int duplicate(string key); //check if they are any duplicate letters in key
 int cipher(char character); //returns the index of letter in alphabet
 
 int main(int argc, char *argv[])
